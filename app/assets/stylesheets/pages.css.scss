@@ -1,6 +1,8 @@
 @import "settings";
 @import "bootstrap/mixins";
 @import "mixins";
+@import "marketing/color";
+@import "marketing/buttons";
 
 
 // CSS reset - does this exist elsewhere?
@@ -115,6 +117,7 @@ a.btn-icon:hover { color: $dark-grey; }
 .pages.services,
 .pages.terms_of_service,
 .pages.third_parties,
+.pages.try_it,
 .pages.purpose,
 .pages.how_it_works,
 .pages.about_us,
@@ -831,3 +834,47 @@ body.pages.wallets {
   }
 }
 
+body.pages.try_it {
+  font-family: 'Open Sans'; //, sans-serif;
+
+  h1, p, div {
+    font-weight: 400;
+    color: #444;
+    // line-height: 1.2;
+    // margin-bottom: 0;
+  }
+
+  h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #797979;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  .fa {
+    display: block;
+    float: left;
+  }
+
+  .button-text{
+    margin: 4px 0 0 40px;
+    color: #fff;
+  }
+
+  .btn-try-it {
+    font-size: 21px;
+    font-weight: 600;
+    text-align: left;
+    padding: 30px;
+    margin: 24px 0 4px 0;
+
+    .fa-try-it{
+      color: white;
+      font-size: 30px;
+    }
+  }
+}
