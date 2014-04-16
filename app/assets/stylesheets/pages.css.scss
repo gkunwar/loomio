@@ -835,44 +835,43 @@ body.pages.wallets {
 }
 
 body.pages.try_it {
-  font-family: 'Open Sans'; //, sans-serif;
 
-  h1, p, div {
-    font-weight: 400;
-    color: #444;
-    // line-height: 1.2;
-    // margin-bottom: 0;
-  }
+  h1, p, .button-text { font-family: 'Open Sans'; }
 
   h1 {
     font-size: 20px;
     font-weight: 600;
     color: #797979;
+    text-transform: uppercase;
   }
 
   p {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 300;
+    color: $charcoal;
   }
 
-  .fa {
+  section { margin-top: 0; }
+
+  .fa, .join-loomio-community-icon {
     display: block;
     float: left;
   }
 
-  .button-text{
-    margin: 4px 0 0 40px;
+  .button-text {
+    margin: 5px 0 0 50px;
     color: #fff;
   }
 
   .btn-try-it {
-    font-size: 21px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 300;
     text-align: left;
     padding: 30px;
-    margin: 24px 0 4px 0;
+    margin: 24px 0 4px;
+    width: 420px;
 
-    .fa-try-it{
+    .fa-try-it {
       color: white;
       font-size: 30px;
     }
